@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GifGrid /> tests should display the item 1`] = `
+<Fragment>
+  <h3>
+    test
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <p>
+      Loading...
+    </p>
+  </div>
+</Fragment>
+`;
+
+exports[`<GifGrid /> tests should have the info after loading useFetch() 1`] = `
+<Fragment>
+  <h3>
+    test
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="cualquier cosa"
+      url="https://algo.com/img.jpg"
+    />
+  </div>
+</Fragment>
+`;
